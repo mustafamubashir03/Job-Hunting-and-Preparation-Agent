@@ -1,0 +1,114 @@
+MUSTAFA MUBASHIR
+Karachi, Pakistan | mustafamubashir87@gmail.com | 0309-2293952
+LinkedIn: in/mustafa-mubashir-a778a2224 | Portfolio: mustafamubashir.netlify.app
+
+--------------------------------------------------------------------------------
+SUMMARY
+--------------------------------------------------------------------------------
+Software Engineer specializing in full-stack development using the MERN stack
+and Next.js, with strong experience in real-time systems and AI-driven
+applications. Seeking startup and remote full-stack roles.
+
+--------------------------------------------------------------------------------
+SKILLS
+--------------------------------------------------------------------------------
+Frontend:
+React, Next.js, TypeScript, JavaScript (ES6+), Tailwind CSS, ShadCN UI,
+DaisyUI, Ant Design, Zustand, TanStack Query, Zod, React Hook Form, SSR/SSG,
+WebRTC, Clerk Authentication
+
+Backend:
+Node.js, Express.js, REST & GraphQL APIs, gRPC, tRPC, JWT/OAuth Authentication,
+Real-Time Systems (Socket.IO), Microservices, Event-Driven Architecture
+
+Databases & Data Systems:
+MongoDB, PostgreSQL, MySQL, Redis, Prisma ORM, Schema Design, Indexing,
+Transactions, Replication, Sharding
+
+DevOps, Cloud & Messaging:
+Docker, AWS, CI/CD, Git, GitHub Actions, Kafka, RabbitMQ, BullMQ
+
+Mobile Development:
+React Native, Expo
+
+AI & LLM:
+Python, FastAPI, LangChain, LangGraph, LangSmith, RAG, Vector Databases
+(Qdrant), Checkpointing, Agent Workflows, Neo4j
+
+--------------------------------------------------------------------------------
+EXPERIENCE
+--------------------------------------------------------------------------------
+Go High Level Web Designer & Developer
+Dev Spark | Karachi, Pakistan | August 2025 - December 2025
+- Designed and developed responsive, SEO-optimized websites using Figma and
+  WordPress, achieving average load times under 3 seconds and increasing
+  client lead conversions by 20-25%.
+- Integrated AI chatbots and AI-powered voice calling systems, improving
+  customer engagement and reducing average response time by ~60%.
+- Launched custom CRM workflows in GoHighLevel, automating lead nurturing
+  pipelines and enhancing follow-up consistency, resulting in 10-15% higher
+  campaign engagement.
+
+--------------------------------------------------------------------------------
+PROJECTS
+--------------------------------------------------------------------------------
+UIGen - AI UI Generator Platform
+ui-gen-mu.vercel.app | January 2026 - March 2026
+- Built an AI-powered UI generation system supporting Next.js-based code
+  generation, enabling rapid UI creation via chat commands and reducing
+  prototyping time by ~30% by leveraging Inngest workflows and E2B sandbox
+  for safe execution.
+- Engineered robust data persistence and secure authentication, supporting
+  dozens of concurrent users by integrating PostgreSQL, Prisma ORM, and
+  Clerk, while refining output quality through extensive prompt testing
+  and iteration.
+- Addressed LLM output inconsistencies by defining selected code insertions
+  at key points within Inngest flows, facilitating more predictable
+  automated UI generation with clear fallback mechanisms.
+
+DevPlayground - Coding Sandbox
+github.com/mustafamubashir03/Coding-Sandbox | January 2026 - February 2026
+- Built a browser-based coding sandbox supporting React-based web projects,
+  enabling users to create and run web apps entirely in the browser and
+  reducing setup time by leveraging React, Node.js, and WebSockets for live
+  editing.
+- Developed containerized project workspaces with Docker to support secure,
+  real-time code execution and terminal access, integrating ws WebSockets to
+  enhance terminal process handling beyond Socket.IO capabilities.
+- Designed a monorepo architecture with real-time collaboration channels,
+  integrating Socket.IO and ws WebSockets to support file operations,
+  project scaffolding, and interactive development workflows for multiple
+  users simultaneously.
+
+KU-Fleet - Fleet Monitoring & Management System
+University of Karachi | ku-fleet.vercel.app | October 2025 - January 2026
+- Built a real-time fleet management system enabling live GPS tracking,
+  RFID-based passenger onboarding, and JC400 dashcam monitoring, providing
+  end-to-end visibility of buses and users using React, Node.js, MongoDB,
+  Redis, and Socket.IO.
+- Engineered a TCP server for full GPS tracker support, deploying the
+  backend on AWS EC2 to handle device connections, configuring trackers
+  and implementing GT06 protocol parsing to convert raw binary packets into
+  structured geo-location JSON data streams.
+- Designed a scalable map-based frontend with Google Maps, Zustand, and
+  TanStack Query, along with 50+ modular APIs and JWT-based authentication,
+  ensuring smooth real-time UX and secure system operations.
+
+Real-time Chat & Video Calling Web App
+chat-application-client-gis2.onrender.com | September 2025 - January 2026
+- Developed a full-stack chat platform using React, TypeScript, Node.js,
+  Express, Socket.io, and MongoDB, enabling users to create workspaces,
+  channels, and communicate with instant, real-time messaging.
+- Implemented rich text messaging, image uploads via Cloudinary, role-based
+  workspace management, and PeerJS video calling, enhancing team
+  collaboration.
+- Built a scalable and reliable architecture with Redis and BullMQ for
+  background job queues, JWT authentication, and a responsive Tailwind +
+  Radix UI frontend, supporting hundreds of concurrent users.
+
+--------------------------------------------------------------------------------
+EDUCATION
+--------------------------------------------------------------------------------
+Bachelor of Science in Computer Science
+University of Karachi, Pakistan | CGPA: 3.4
+Completed, Degree Pending
