@@ -5,6 +5,8 @@ job_extraction_task:
     1. Use Web Search Tool to search for {level} level {position} jobs in {location}.
     2. Extract the job listings from the search results.
     3. Filter out job listings that are not {level} level {position} jobs in {location}.
+    4. MUST EXTRACT the exact source URL and platform link where the job was found into `job_posting_url` and `source_listing_url`. 
+    5. DO NOT hallucinate or make up jobs, companies, or URLs. All data must be strictly from the real search results provided.
   expected_output: >
     A JSON object matching the `JobList` schema.
   agent: job_search_agent
@@ -92,6 +94,7 @@ company_research_task:
     - ## Role Context and Product Involvement
     - ## Likely Interview Topics
     - ## Suggested Questions to Ask
+    - ## Sources and Reference Links
 
   agent: company_research_agent
   markdown: true
@@ -127,6 +130,7 @@ interview_prep_task:
     - ## Questions to Ask Them
     - ## Concepts To Know/Review
     - ## Strategic Advice
+    - ## Reference Links
 
   agent: interview_prep_agent
   output_file: output/interview_prep.md

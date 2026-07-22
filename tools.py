@@ -57,7 +57,6 @@ def web_search_tool(query:str)->List[dict]:
         
         markdown_content = result.get('markdown', '')
         cleaned_markdown_content = re.sub(r'\n{3,}', '\n\n', markdown_content).strip()
-        cleaned_markdown_content =re.sub(r"\[[^\]]+\]\([^\)]+\)|https?://[^\s]+", "", cleaned_markdown_content)
         
         cleaned_result = {
             "title": title,
